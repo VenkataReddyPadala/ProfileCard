@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    background-color:rgb(237,233,224);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width:300px;
+    background-color: rgb(31,31,32);
+    border-radius: 5px;
+    padding:35px 25px;
+    
+}
+
+.fa-heart, .fa-bars, .fa-arrow-left  {
+    color:whitesmoke;
+    font-size: 20px;
+}
+
+.navigation {
+    display: flex;
+
+
+}
+
+#heart {
+    margin-left:auto;
+    margin-right: 15px;
+}
+
+.image {
+    text-align: center;
+}
+
+.picture {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}
+
+.title {
+    color:#fff;
+    text-align: center;
+    margin:10px 0px;
+}
+
+.about {
+    color:whitesmoke;
+    text-align: center;
+    /* width:75%; */
+    margin:auto;
+   
+}
+
+.button {
+    margin:35px 0px;
+    text-align: center;
+}
+
+.btn {
+    text-decoration:none;
+    background-color: rgb(240,240,240);
+    border-radius:30px;
+    padding:12px 25px;
+    color:#111;
+    font-weight: 600;
+    margin-top:30px;
+    
+}
+.btn:hover {
+    background-color: rgb(240,240,240,0.8);;
+}
+
+.social-media {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:60px;
+}
+
+.fa-instagram , .fa-youtube, .fa-twitter, .nofoll , .folltext {
+    color:whitesmoke;
+    
+}
+
+.fa-instagram , .fa-youtube, .fa-twitter {
+    font-size:25px;
+
+}
+
+
+.nofoll , .folltext {
+    margin:5px 0px;
+    display: flex;
+    justify-content: center;
+    font-size:15px;
+}
+
+
+
+.medialinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-instagram {
+    align-self: center;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  
+}
+
+.fa-brands {
+    padding:10px 10px;
+    border-radius:10px;
+   
+}
+
+.fa-twitter {
+    align-self: center;
+    background-color: rgb(29,155,240);
+}
+
+
+.fa-youtube {
+    align-self: center;
+    background-color: rgb(255,0,0);
+}
